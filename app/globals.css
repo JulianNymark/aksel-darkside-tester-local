@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@import "@navikt/ds-css";
-/* @import "@navikt/ds-css/darkside"; */
+@import "tailwindcss/base" layer(tw);
+@import "@navikt/ds-css/darkside";
+@import "tailwindcss/components" layer(tw);
+@import "tailwindcss/utilities" layer(tw);
